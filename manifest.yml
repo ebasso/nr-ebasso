@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: nr-ebasso
+  host: nr-ebasso
+  disk_quota: 1024M
+  services:
+  - nr-ebasso-cloudantNoSQLDB
+  - lang-translator-node-red
